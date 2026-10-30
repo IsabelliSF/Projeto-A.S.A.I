@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A.S.A.I. Manutenções - Login</title>
+  
+  <!-- Font Awesome para ícones -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Ficheiro CSS -->
+  <link rel="stylesheet" href="./login.css">
+</head>
+<body>
+
+  <!-- Link superior esquerdo -->
+  <a href="../index.html" class="back-link">
+    <i class="fa-solid fa-arrow-left"></i> Voltar ao site
+  </a>
+
+  <!-- Container de Login com Degradê e Tamanho Expandido -->
+  <div class="login-card">
+    
+    <!-- Logótipo da Empresa -->
+    <div class="logo-box">
+      <img src="logo.png" alt="A.S.A.I. Manutenções" class="brand-logo" onerror="this.onerror=null; this.parentNode.innerHTML='<div class=\'logo-fallback\'>A.S.A.I.</div>';">
+    </div>
+
+    <h2 class="form-title">Acesse sua conta</h2>
+
+    <!-- Formulário -->
+    <form class="login-form" onsubmit="event.preventDefault();">
+      
+      <div class="input-box">
+        <i class="fa-regular fa-user"></i>
+        <input type="text" placeholder="Usuário ou E-mail" required>
+      </div>
+
+      <div class="input-box">
+        <i class="fa-solid fa-lock"></i>
+        <input type="password" placeholder="Senha" required>
+      </div>
+
+      <button type="submit" class="btn-login">
+        <span>ENTRAR</span> <i class="fa-solid fa-arrow-right"></i>
+        <a href="./consulta.html"></a>
+      </button>
+
+      <a href="#" class="forgot-link">Esqueceu sua senha?</a>
+
+    </form>
+
+  </div>
+
+</body>
+</html>

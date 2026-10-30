@@ -14,15 +14,12 @@ body {
 /* CABEÇALHO */
 
 header {
-    width: 100%;
-    height: 55px;
-    background-color: #fc8b2a;
-
+    background-color: #fc8b2a; 
     display: flex;
+    justify-content: space-between; 
     align-items: center;
-    justify-content: space-between;
-
-    padding: 0 18px;
+    padding: 10px 40px; 
+    width: 100%;
 }
 
 /* LOGO */
@@ -57,10 +54,22 @@ nav a {
 
 /* MENU */
 
-.menu {
-    color: black;
-    font-size: 16px;
-    cursor: pointer;
+.menu-hamburger {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 5px; 
+  padding: 5px;
+}
+
+.menu-hamburger span {
+  display: block;
+  width: 25px;
+  height: 2px;
+  background-color: #000000; 
+  transition: 0.3s ease;
 }
 
 /* CONTEÚDO PRINCIPAL */
